@@ -1,20 +1,24 @@
 const covid19ImpactEstimator = (data) => data;
-
-const currentlyInfected = reportedCases * 10;
-
-
-
-export default covid19ImpactEstimator;
-
-
+function covid19ImpactEstimator(){
+  
+}
 
 function impact(){
     const currentlyInfected = reportedCases * 10;
 }
+impact();
+
 function severeImpact(){
     const currentlyInfected = reportedCases * 50;
 }
+severeImpact();
+
 function infectionsByRequestedTime(){
-    severeImpact.currentlyInfected = reportedCases * 1024;
-    impact.currentlyInfected *  1024;
+    math.trunc(impact.currentlyInfected * 512)
+    math.trunc(self.currentlyInfected * 512)
 }
+infectionsByRequestedTime()
+
+export default covid19ImpactEstimator;
+
+
