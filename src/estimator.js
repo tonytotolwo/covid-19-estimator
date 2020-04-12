@@ -13,7 +13,7 @@ function infectionsByRequestedTime(){
     math.trunc(impact.currentlyInfected * 512)
     math.trunc(self.currentlyInfected * 512)
 }
-infectionsByRequestedTime()
+infectionsByRequestedTime();
 
 export default covid19ImpactEstimator;
 
