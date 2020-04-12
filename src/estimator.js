@@ -3,7 +3,7 @@ import { covid19ImpactEstimator } from "./covid19ImpactEstimator";
 const covid19ImpactEstimator = (data) => data;
 const reportedCases = {};
 
-function impact(){
+function impact() {
     const currentlyInfected = reportedCases * 10;
 }
 impact(currentlyInfected);
