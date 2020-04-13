@@ -1,6 +1,6 @@
-const covid19ImpactEstimator = (data) => {data};
+const covid19ImpactEstimator = (data) => data;
 const reportedCases = {};
-let  currentlyInfected = {};
+const currentlyInfected = {};
 
 function impact() {
   const currentlyInfected = reportedCases * 1;
