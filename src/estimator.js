@@ -1,5 +1,4 @@
-import { covid19ImpactEstimator } from "./covid19ImpactEstimator";
-
+//import { covid19ImpactEstimator } from "./covid19ImpactEstimator";
 const covid19ImpactEstimator = (data) => data;
 const reportedCases = {};
 
