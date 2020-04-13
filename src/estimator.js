@@ -1,9 +1,9 @@
-//import { covid19ImpactEstimator } from "./covid19ImpactEstimator";
 const covid19ImpactEstimator = (data) => data;
 const reportedCases = {};
+const currentlyInfected = {};
 
 function impact() {
-    const currentlyInfected = reportedCases * 10;
+    const currentlyInfected = reportedCases * 1
 }
 impact(currentlyInfected);
 
@@ -13,8 +13,8 @@ function severeImpact() {
 severeImpact(currentlyInfected);
 
 function infectionsByRequestedTime() {
-    Math.trunc(impact.currentlyInfected * 512)
-    Math.trunc(severeImpact.currentlyInfected * 512)
+    Math.trunc(impact.currentlyInfected * 512);
+    Math.trunc(severeImpact.currentlyInfected * 512);
 }
 infectionsByRequestedTime();
 export default covid19ImpactEstimator;
